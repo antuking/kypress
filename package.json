@@ -1,0 +1,21 @@
+{
+  "name": "kypress-framework",
+  "version": "1.0.0",
+  "description": "kypress test automation framework",
+  "scripts": {
+    "e2e": "node_modules/.bin/cypress run",
+    "cypress:open": "node_modules/.bin/cypress open"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-typescript": "^7.24.7",
+    "@cypress/webpack-preprocessor": "^6.0.2",
+    "babel-loader": "^9.2.1",
+    "cypress": "^13.14.2",
+    "dotenv": "^16.4.5",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.2",
+    "webpack": "^5.94.0"
+  }
+}
