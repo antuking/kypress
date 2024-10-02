@@ -1,0 +1,12 @@
+{
+  "valid_user": {
+    "email": "testuser@test.com",
+    "last_name": "lastU",
+    "first_name": "firstU"
+  },
+  "invalid_user": {
+    "email": "invalid@",
+    "last_name": "",
+    "first_name": ""
+  }
+}

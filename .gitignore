@@ -1,5 +1,5 @@
 /node_modules
 /cypress/screenshots
 /cypress/results
-/cypress/downloads
 package-lock.json
+.DS_Store

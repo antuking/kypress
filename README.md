@@ -1,5 +1,5 @@
 # Cypress.io for assignment
-Using Cypress to handle automation tests.
+Using Cypress to handle automation tests for Raksul.
 
 <img src="https://static-00.iconduck.com/assets.00/cypress-icon-512x511-29zvfts6.png" width="250" height="250">
 
@@ -13,20 +13,25 @@ With **Cypress**, you can easily create tests for your modern web applications, 
         |-- e2e
         |-- fixtures
         |-- support
-    |-- .env
+    |-- doc (test case design image)
     |-- .gitignore  
-    |-- cypress.config.ts (configuration file for project)
+    |-- cypress.config.js (configuration file for project)
     |-- package.json
     |-- README.md
-    |-- tsconfig.json (typescript configuration file)
-    |-- webpack.config.js (webpack configuration file)
+    |-- reporter-config.json (mocha + junit reporter configuration for project)
     |-- yarn.lock
 ```
 
-## Installation and Run scenario
+## Installation
+
+Install all dependencies from **package.json**
+
+## Running Tests
+
+### Registration scenario
 
 ``
-npm i && npm run e2e
+yarn test:registration
 ``
 
 ### Naming conventions
@@ -44,9 +49,9 @@ npm i && npm run e2e
 | Checkbox              | cbk          | cbkROI         |
 | Radio                 | rdo          | rdoROI         |
 | List Box              | lbx          | lbxROI         |
-| Href                  | href         | hrefBlog       |
 
 ### TODO List
 * Add CI Workflow
+* Consider ES6 (alias + custom commands) instead of POM
 * Integrate with Report server
 * Integrate with Test Management Tool
