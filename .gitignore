@@ -3,3 +3,4 @@
 /cypress/results
 /cypress/downloads
 package-lock.json
+.idea
